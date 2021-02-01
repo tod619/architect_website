@@ -152,4 +152,30 @@ html {
   font-size: 4rem;
   color: #555;
 }
+
+.social-media {
+  position: absolute;
+  bottom: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media i {
+  font-size: 2.2rem;
+  margin: 3rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #777;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 0.5s;
+}
+
+.social-media i:hover {
+  background-color: #c29525;
+}
 /* End: Section Sidebar */
