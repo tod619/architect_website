@@ -125,3 +125,21 @@ html {
   }
 }
 /* End:  Section Header + Hamburger Icon*/
+
+/* Start: Section Sidebar */
+.sidebar {
+  width: 40rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.menu {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* End: Section Sidebar */
