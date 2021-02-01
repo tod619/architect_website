@@ -25,6 +25,11 @@ html {
   flex-direction: column;
   justify-content: space-evenly;
   cursor: pointer;
+  transition: right 0.7s;
+}
+
+.change .hamburger-menu {
+  right: 33rem;
 }
 
 .line {
@@ -132,8 +137,13 @@ html {
   height: 100vh;
   position: fixed;
   top: 0;
-  right: 0;
+  right: -40rem;
   background-color: #fff;
+  transition: right 0.5s;
+}
+
+.change .sidebar {
+  right: 0;
 }
 
 .menu {
