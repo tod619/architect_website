@@ -570,4 +570,21 @@ html {
   transform: translateY(-3rem);
   font-size: 1.2rem;
 }
+
+.submit-btn {
+  width: 45rem;
+  height: 5rem;
+  background-color: #c29525;
+  color: #fff;
+  border: none;
+  margin-top: 2rem;
+  font-family: "Muli", serif;
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+}
 /* End: Section Contact */
