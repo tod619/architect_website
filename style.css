@@ -638,3 +638,24 @@ html {
   border-radius: 0.3rem;
 }
 /* End: Scroll Up Btn */
+
+/* Start: Media Queries */
+@media (max-width: 1500px) {
+  .about-us-img-wrapper {
+    grid-row: 3/-1;
+  }
+
+  .card {
+    width: 34rem;
+  }
+
+  .contact-wrapper {
+    width: 80%;
+    height: 65rem;
+  }
+
+  .footer-content {
+    width: 80%;
+  }
+}
+/* End: Media Queries */
