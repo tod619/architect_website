@@ -732,4 +732,72 @@ html {
     margin: 2rem 0;
   }
 }
+
+@media (max-width: 1000px) {
+  .banner h1 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  .banner p {
+    font-size: 2.5rem;
+  }
+
+  .banner button {
+    width: 18rem;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service {
+    width: 40rem;
+    margin-bottom: 6rem;
+  }
+
+  .about-us-img-wrapper {
+    width: 40rem;
+  }
+
+  .about-us-img-wrapper img {
+    width: 100%;
+  }
+
+  .contact-left {
+    width: 0;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+
+  .field {
+    width: 55rem;
+  }
+
+  .input-group textarea {
+    max-width: 55rem;
+  }
+
+  .submit-btn {
+    width: 55rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+
+  .copyright {
+    order: 1;
+    margin-top: 3rem;
+  }
+}
 /* End: Media Queries */
