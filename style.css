@@ -800,4 +800,27 @@ html {
     margin-top: 3rem;
   }
 }
+
+@media (max-width: 700px) {
+  .banner h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .banner p {
+    font-size: 2rem;
+  }
+
+  .field {
+    width: 35rem;
+  }
+
+  .input-group textarea {
+    max-width: 35rem;
+  }
+
+  .submit-btn {
+    width: 35rem;
+  }
+}
 /* End: Media Queries */
