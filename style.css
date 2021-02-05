@@ -12,6 +12,10 @@ html {
   font-size: 62.5%;
 }
 
+.container {
+  display: none;
+}
+
 .section-header {
   display: flex;
   flex-direction: column;
