@@ -23,12 +23,44 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 1s;
+  z-index: 300;
+}
+
+.display .spinner-container {
+  opacity: 0;
+  visibility: hidden;
 }
 
 .circles {
   width: 8rem;
   height: 8rem;
   position: relative;
+  opacity: 0;
+  visibility: hidden;
+  animation: displayCircles 4s;
+}
+
+@keyframes displayCircles {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  25% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  90% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 .circles div {
@@ -125,6 +157,10 @@ html {
 
 .container {
   display: none;
+}
+
+.display .container {
+  display: block;
 }
 
 .section-header {
